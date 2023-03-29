@@ -14,13 +14,85 @@
 
   <link rel="stylesheet" href="./style.css">
 
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
   <title>Devchallenges</title>
 
 
 </head>
 
 <body>
+  <!-- navigation bar  -->
+  <header>
+    <div class="logo">
+      <h1>Eddie</h1>
+    </div>
+    <nav class="navbar-links">
+      <ul class="navlinks">
+        <li class="navlink"><a href="#">Home</a></li>
+        <li class="navlink"><a href="#">Services</a></li>
+        <li class="navlink"><a href="#">Our Works</a></li>
+        <li class="navlink"><a href="#">Clients</a></li>
+        <li class="navlink"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="toggle-sidebar">
+      <span class="material-symbols-outlined toggle-button">
+        menu
+      </span>
+    </div>
+  </header>
+  <div class="side-bar">
+    <div class="side-close">
+      <span class="material-symbols-outlined close-button">
+        close
+      </span>
+    </div>
+    <ul class="sidebar-links">
+      <li class="sidebar-link"><a href="#hero">Home</a></li>
+      <li class="sidebar-link"><a href="#Services">Services</a></li>
+      <li class="sidebar-link"><a href="#">Our Works</a></li>
+      <li class="sidebar-link"><a href="#">Clients</a></li>
+      <li class="sidebar-link"><a href="#">Contact</a></li>
+    </ul>
+  </div>
 
+  <!-- hero  -->
+
+  <section id="hero">
+    <div class="hero-questiontxt">
+      <p>Unhappy with your website?</p>
+    </div>
+    <div class="hero-header header1">
+      <h1>We create beautiful and fast web services</h1>
+    </div>
+    <div class="hero-bg">
+      <!-- <img src="./images/heroImage.jpg" alt="background"> -->
+    </div>
+    <div class="hero-header2 header1">
+      <h1>Story, emotion and purpose</h1>
+    </div>
+    <div class="hero-description">
+      <p>We will help transform your ideas into real world
+        applications that will outperform your toughest competition and help you achieve your strategic
+        goals in shor period of time.
+      </p>
+    </div>
+    <div class="hero-form">
+      <div class="hero-form-q">
+        <p>Wants us to contact you?</p>
+      </div>
+      <div class="form">
+        <form action="#">
+          <input type="text" name="email" id="email" placeholder="Email">
+        </form>
+        <button>Join</button>
+      </div>
+    </div>
+  </section>
 </body>
+<script src=" ./app.js">
+</script>
 
 </html>

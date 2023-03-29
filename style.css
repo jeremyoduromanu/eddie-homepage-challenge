@@ -1,0 +1,183 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+header .logo h1{
+    font-size: 24px;
+}
+
+/* sidebar for mobile  */
+
+.side-bar{
+    width: 60%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: -60%;
+    background-color: rgb(229, 230, 229);
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.315);
+    transition: .2s ease-in;
+}
+
+/* close button in sidebar  */
+.side-close{
+    text-align: right;
+    margin: 20px;
+}
+
+.side-close span{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(224, 228, 231);
+}
+
+.side-bar ul{
+    list-style: none;
+    padding: 30px;
+}
+
+.side-bar ul li{
+    margin-bottom: 30px;
+}
+
+
+.side-bar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(48, 47, 47);
+    font-weight: 600;
+}
+
+.active{
+    right: 0;
+}
+
+/* pc navigation bar  */
+.navbar-links{
+    display: none;
+}
+
+
+#hero{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 48px;
+}
+
+.hero-questiontxt, .hero-header{
+    padding-left: 40px;
+}
+
+.hero-questiontxt{
+    font-weight: 500;
+    color: #2D9CDB;
+}
+
+.hero-questiontxt p{
+    font-size: 12px;
+}
+
+.hero-header{
+    margin-bottom: 15px;
+}
+
+.hero-header h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #333333;
+    /* text-align: ; */
+}
+
+.hero-bg{
+    width: 100%;
+    border-radius: 18px;
+    height: 145px;
+    background-image: url(./images/heroImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.hero-header2{
+    margin-top: 22px;
+    padding-left: 40px;
+}
+
+.hero-header2 h1{
+        font-weight: 500;
+        line-height: 36px;
+        font-size: 24px;
+        color: #333333;
+}
+
+.hero-description{
+    margin-top: 33px;
+    width: 85%;
+    margin-left: 40px;
+}
+
+.hero-description p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+.hero-form{
+    margin-top: 31px;
+    margin-left: 40px;
+}
+
+.hero-form-q p{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.form{
+    display: flex;
+    height: 47px;
+    align-items: center;
+}
+
+.form form input{
+    border: none;
+    padding-left: 19px;
+    padding: 10px 19px;
+}
+
+.form form input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.form button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: #2D9CDB;
+    color:  #F2F2F2;;
+}
